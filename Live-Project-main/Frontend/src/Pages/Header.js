@@ -43,7 +43,7 @@ function Header(props) {
           .filter((l) => l.timing.length > 0)
       );
       setStudentList1(
-        res.data.data.filter((i) => (i.type === "teacher") & (i.timing !== []))
+        res.data.data.filter((i) => (i.type === "teacher") & (i.timing != []))
       );
     });
   };

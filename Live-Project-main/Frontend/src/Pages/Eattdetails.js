@@ -294,7 +294,7 @@ function Eattdetails() {
             position: "fixed",
             top: 0,
             right: 0,
-            backgroundColor: "rgba(0,0,0,0.3)",
+            backgroundColor: "rgba(156, 56, 56, 0.3)",
             height: "100%",
             display: "flex",
             alignItems: "center",
@@ -439,7 +439,9 @@ function Eattdetails() {
         </div>
       ) : null}
     </div>
+         
   );
 }
 
 export default Eattdetails;
+       
